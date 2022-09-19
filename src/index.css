@@ -5,9 +5,92 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: aquamarine;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+html{
+  width: 100%;
+  height: 100%;
+  background-color: aquamarine
+}
+.container2{
+  background-color: aquamarine;
+}
+div{
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  background-color: aquamarine;
+}
+.buttonDiv{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: aquamarine;
+}
+.listDiv{
+  width: 20%;
+  height: 100%;
+  margin: 30px auto;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: aquamarine;
+  border: 5px solid steelblue;
+}
+.titleSolver{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:green;
+  font-size:90px;
+  font-weight: bold;
+  margin-top:8vh;
+}
+.stitle{
+  display: flex;
+  justify-content: center;
+}
+.topButton{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.listEquations{
+  width:500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.formulaText{
+  margin-top:5vh;
+  font-size:50px;
+  display: flex;
+  justify-content: center;
+}
+
+.variableForm{
+  margin: 40px auto;
+  max-width: 400px;
+  padding: 30px;
+  border-radius: 5px;
+  background-color: aquamarine;
+  border: 5px solid steelblue;
+}
+.formRows{
+  display: flex;
+  align-items: stretch;
+  justify-content: stretch;
+}
+.formSubmitButton{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
